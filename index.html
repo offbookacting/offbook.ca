@@ -16,65 +16,202 @@
                     <img src="icon.png" alt="Off Book Icon" class="logo-icon">
                     <span class="logo-text">Off Book</span>
                 </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#where-were-at" class="nav-link">Where We're At</a></li>
+                    <li><a href="#devlogs" class="nav-link">Devlogs</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#support-us" class="nav-link">Support Us</a></li>
+                    <li><a href="#links" class="nav-link">Links</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="hero-content">
                 <img src="icon.png" alt="Off Book" class="hero-icon">
                 <h1 class="hero-title">Off Book</h1>
-                <p class="hero-subtitle">Acting without Distracting</p>
+                <p class="hero-subtitle">Acting without Distracting.</p>
             </div>
         </section>
 
         <!-- About Section -->
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <h2 class="section-title">About</h2>
                 <div class="about-content">
                     <p class="about-text">
-                        Off book is an All-in-one tool for performers organize, rehearse and publish their perforemance without ever leaving the app. 
+                        Off Book is an all-in-one tool for performers to organize, rehearse, and publish their performance without ever leaving the app. 
                     </p>
                     <p class="about-text">
-                        [Add more details about features, goals, or any other relevant information 
-                        you want visitors to know.]
+                        A tool to make performers feel like a craftsman.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- Features Section (Optional) -->
-        <section class="features">
+        <!-- Features Section -->
+        <section id="features" class="features">
             <div class="container">
                 <h2 class="section-title">Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <h3 class="feature-title">[Feature 1]</h3>
-                        <p class="feature-description">
-                            [Description of feature 1]
-                        </p>
+                <div class="features-carousel">
+                    <button class="carousel-btn carousel-btn-left" aria-label="Previous feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="feature-card active">
+                                <h3 class="feature-title">Easy to Learn, Hard to Master</h3>
+                                <p class="feature-description">
+                                    Off Book is approachable for everyone, yet if you'd like to, there's a comprehensive suite of powerful tools available.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Annotate</h3>
+                                <p class="feature-description">
+                                    Annotate PDFs within the app. Make notes and scribble thoughts on the page for later reference. Full pen support included.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Read</h3>
+                                <p class="feature-description">
+                                    Read out loud your script or any text media. Take in the text you'll be performing before you begin rehearsing so you can approach it like an artist. Also includes the ability to record your own "table read" so that you can listen back to it later.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Rehearse</h3>
+                                <p class="feature-description">
+                                    Rehearse your lines any way that works for you. The app doesn't insist on one method of rehearsal. Rather, it lets you choose what works for you, giving you all the tools you need to perfect your system. Allowing you to feel like performing is your craft. We aim to put every rehearsal method out there inside the app.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Sidebar File System</h3>
+                                <p class="feature-description">
+                                    Collapsible sidebar with easy folder organization. Intuitive, powerful design that keeps everything at your fingertips.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Listen to Audio Files</h3>
+                                <p class="feature-description">
+                                    Within the integrated filesystem, audio files can be viewed and played conveniently. Listen to reference files, previous takes, character dialects. Record audio within the app.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Watch Video Files</h3>
+                                <p class="feature-description">
+                                    Integrated with all other files. View and watch videos seamlessly within the app alongside your scripts and notes.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Local, Standardized Storage</h3>
+                                <p class="feature-description">
+                                    Edit files within our app, on your PC, or on cloud storage—it's up to you. If you ever leave the app or don't have it installed, all the files it creates are standardized and usable in perpetuity. Backup to cloud storage is easy by having Google Drive downloaded locally on your machine.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">We Don't Judge How You Use the App</h3>
+                                <p class="feature-description">
+                                    If you want to write scripts within the app for an integrated rehearsal and writing experience, you can. We'd love to discover new ways people use the app. It's a rehearsal tool, but it's also for: stand-up comedy, speeches, wedding speeches, wedding speeches where you don't like the groom, wedding speeches where you don't like the bride, rehearsing a conversation (à la "The Rehearsal") like the conversation where you tell your sister that you don't like her husband, or even drawing a picture of a dog.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Record Self Tape Right Within the App</h3>
+                                <p class="feature-description">
+                                    There will eventually be a clean, simple layout for recording self tapes and choosing takes using a simple UI. Actors told me they often use the editing software with the fewest features even if they're skilled editors in more complex software. My goal is to make it as simple as possible to edit a self tape.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Web Browser</h3>
+                                <p class="feature-description">
+                                    Open any web files in Off Book. Use web-based acting tools (International Dialects of English Archive for accent reference). Publish your self tape within the app. Save web bookmarks for easy access to frequently visited webpages. Download your script from Actors Access, Casting Network, etc. Download scripts from the internet. Files downloaded from the integrated browser will download right into the project folder and go immediately into the files sidebar. Procrastinate, right within the app!
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">Open Source?</h3>
+                                <p class="feature-description">
+                                    I want it to be open source but I'm still deciding.
+                                </p>
+                            </div>
+                            <div class="feature-card">
+                                <h3 class="feature-title">A Passionate Founder</h3>
+                                <p class="feature-description">
+                                    The dude who is making this genuinly wants a tool that performers feel good owning and using for the rest of their life. hes committed to giving you a good fucking product. money is like goal number 4 on the list. that might also come with some downsides like slow development, but i feel its a worthwhile sacrifice. its me... im writing this right now. im the founer in question... noah englmann. my name is noah englmann. hey guys. :)
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-card">
-                        <h3 class="feature-title">[Feature 2]</h3>
-                        <p class="feature-description">
-                            [Description of feature 2]
-                        </p>
+                    <button class="carousel-btn carousel-btn-right" aria-label="Next feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="indicator active" aria-label="Feature 1"></button>
+                        <button class="indicator" aria-label="Feature 2"></button>
+                        <button class="indicator" aria-label="Feature 3"></button>
+                        <button class="indicator" aria-label="Feature 4"></button>
+                        <button class="indicator" aria-label="Feature 5"></button>
+                        <button class="indicator" aria-label="Feature 6"></button>
+                        <button class="indicator" aria-label="Feature 7"></button>
+                        <button class="indicator" aria-label="Feature 8"></button>
+                        <button class="indicator" aria-label="Feature 9"></button>
+                        <button class="indicator" aria-label="Feature 10"></button>
+                        <button class="indicator" aria-label="Feature 11"></button>
+                        <button class="indicator" aria-label="Feature 12"></button>
+                        <button class="indicator" aria-label="Feature 13"></button>
                     </div>
-                    <div class="feature-card">
-                        <h3 class="feature-title">[Feature 3]</h3>
-                        <p class="feature-description">
-                            [Description of feature 3]
-                        </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Where We're At Section -->
+        <section id="where-were-at" class="where-were-at">
+            <div class="container">
+                <h2 class="section-title">Where We're At</h2>
+                <div class="updates-carousel">
+                    <button class="carousel-btn carousel-btn-left" aria-label="Previous update">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track updates-track">
+                            <div class="update-card active">
+                                <h3 class="update-title">Development Update</h3>
+                                <p class="update-date">Saturday, November 22, 2025</p>
+                                <p class="update-description">
+                                    Off Book is incredibly early in development, still getting its footing. Right now I'm trying to gauge interest in the app and get developers on board. I'm not a trained dev myself, so I can only do so much by myself. I'm still making foundational decisions about the app's development, so everything is currently subject to change. I'm writing this literally as I'm making the website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-btn-right" aria-label="Next update">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-indicators updates-indicators">
+                        <button class="indicator active" aria-label="Update 1"></button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Devlogs Section -->
-        <section class="devlogs">
+        <section id="devlogs" class="devlogs">
             <div class="container">
                 <h2 class="section-title">Devlogs</h2>
                 <div class="devlogs-content">
@@ -92,12 +229,126 @@
                             allowfullscreen>
                         </iframe>
                     </div>
-                    <a href="https://youtu.be/B4mamSoymjg" target="_blank" rel="noopener noreferrer" class="youtube-link">
-                        <svg class="youtube-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                        </svg>
-                        <span>Watch on YouTube</span>
-                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2 class="section-title">Pricing</h2>
+                <div class="pricing-content">
+                    <div class="pricing-grid">
+                        <div class="pricing-card pricing-card-featured">
+                            <h3 class="pricing-title">Free Version</h3>
+                            <div class="pricing-price">Price: Free</div>
+                            <p class="pricing-description">
+                                30 day free trial, then we will nag you to buy it but never force you to. Or maybe it'll be like the Duolingo bird that will get progressively sadder as you don't pay us. I don't know.
+                            </p>
+                            <h4 class="pricing-features-title">Features</h4>
+                            <ul class="pricing-features">
+                                <li>All features</li>
+                                <li>Guilt due to not paying man that just wants to be fairly compensated for his work and also has a family to feed you jerk</li>
+                                <li>Man that frowns because you didnt pay him</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h3 class="pricing-title">Affordable One Time Purchase</h3>
+                            <div class="pricing-price">Price: cheep</div>
+                            <p class="pricing-description">
+                                Pay once and own it for life
+                            </p>
+                            <h4 class="pricing-features-title">Features</h4>
+                            <ul class="pricing-features">
+                                <li>All features</li>
+                                <li>Less guilt from seeing the frowning man.</li>
+                                <li>Feed the frowning man's family.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="download">
+            <div class="container">
+                <h2 class="section-title">Download</h2>
+                <div class="download-content">
+                    <p class="download-message">
+                        Currently the app is so broken.
+                    </p>
+                    <button class="download-btn" disabled>
+                        Download
+                    </button>
+                    <p class="download-date">
+                        Download date: as soon as it's not broken
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Us Section -->
+        <section id="support-us" class="support-us">
+            <div class="container">
+                <h2 class="section-title">Support Us</h2>
+                <div class="support-content">
+                    <p class="support-text">
+                        im too embarrassed to ebeg yet. but that might be coming
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links" class="links">
+            <div class="container">
+                <h2 class="section-title">Links</h2>
+                <div class="links-content">
+                    <div class="links-grid">
+                        <a href="https://github.com/offbook" target="_blank" rel="noopener noreferrer" class="link-card">
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <h3 class="link-title">GitHub</h3>
+                            <p class="link-description">View the source code and contribute to Off Book</p>
+                        </a>
+                        <a href="https://www.youtube.com/@offbook" target="_blank" rel="noopener noreferrer" class="link-card">
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                            <h3 class="link-title">YouTube</h3>
+                            <p class="link-description">Watch devlogs and updates on our YouTube channel</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <p class="contact-description">
+                        Have a feature request? Interested in joining our team? Or just want to share your thoughts? 
+                        We'd love to hear from you. I'd love to know what excites you about this app so I can know which features to focus on. Send us a message and we'll get back to you as soon as possible.
+                    </p>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="8" required placeholder="Tell us what's on your mind..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -112,6 +363,204 @@
             </div>
         </footer>
     </main>
+    <script>
+        (function() {
+            function createCarousel(config) {
+                return {
+                    currentIndex: 0,
+                    totalItems: config.totalItems,
+                    autoPlayInterval: null,
+                    userInteracted: false,
+                    transitionDuration: 15000, // 15 seconds
+
+                    init: function() {
+                        this.cards = document.querySelectorAll(config.cardSelector);
+                        this.indicators = document.querySelectorAll(config.indicatorSelector);
+                        this.leftBtn = config.container.querySelector('.carousel-btn-left');
+                        this.rightBtn = config.container.querySelector('.carousel-btn-right');
+                        this.track = config.container.querySelector('.carousel-track');
+
+                        if (!this.cards.length || !this.track) return;
+
+                        // Set initial position
+                        this.track.style.transform = 'translateX(0%)';
+
+                        this.leftBtn.addEventListener('click', () => this.handleUserInteraction(-1));
+                        this.rightBtn.addEventListener('click', () => this.handleUserInteraction(1));
+                        
+                        this.indicators.forEach((indicator, index) => {
+                            indicator.addEventListener('click', () => this.handleUserInteraction(0, index));
+                        });
+
+                        this.startAutoPlay();
+                    },
+
+                    handleUserInteraction: function(direction, targetIndex) {
+                        if (!this.userInteracted) {
+                            this.userInteracted = true;
+                            this.stopAutoPlay();
+                        }
+
+                        if (targetIndex !== undefined) {
+                            this.goToSlide(targetIndex);
+                        } else {
+                            const newIndex = (this.currentIndex + direction + this.totalItems) % this.totalItems;
+                            this.goToSlide(newIndex);
+                        }
+                    },
+
+                    goToSlide: function(index) {
+                        if (index === this.currentIndex) return;
+
+                        // Remove active class from current card and indicator
+                        this.cards[this.currentIndex].classList.remove('active');
+                        this.indicators[this.currentIndex].classList.remove('active');
+
+                        // Update current index
+                        this.currentIndex = index;
+
+                        // Add active class to new card and indicator
+                        this.cards[this.currentIndex].classList.add('active');
+                        this.indicators[this.currentIndex].classList.add('active');
+
+                        // Update track transform
+                        this.track.style.transform = `translateX(-${this.currentIndex * 100}%)`;
+                    },
+
+                    next: function() {
+                        if (!this.userInteracted) {
+                            const newIndex = (this.currentIndex + 1) % this.totalItems;
+                            this.goToSlide(newIndex);
+                        }
+                    },
+
+                    startAutoPlay: function() {
+                        if (!this.userInteracted) {
+                            this.autoPlayInterval = setInterval(() => {
+                                this.next();
+                            }, this.transitionDuration);
+                        }
+                    },
+
+                    stopAutoPlay: function() {
+                        if (this.autoPlayInterval) {
+                            clearInterval(this.autoPlayInterval);
+                            this.autoPlayInterval = null;
+                        }
+                    }
+                };
+            }
+
+            function initCarousels() {
+                // Features carousel
+                const featuresContainer = document.querySelector('.features-carousel');
+                if (featuresContainer) {
+                    const featuresCarousel = createCarousel({
+                        container: featuresContainer,
+                        cardSelector: '.feature-card',
+                        indicatorSelector: '.features-carousel .indicator',
+                        totalItems: 13
+                    });
+                    featuresCarousel.init();
+                }
+
+                // Updates carousel
+                const updatesContainer = document.querySelector('.updates-carousel');
+                if (updatesContainer) {
+                    const updateCards = updatesContainer.querySelectorAll('.update-card');
+                    if (updateCards.length > 0) {
+                        const updatesCarousel = createCarousel({
+                            container: updatesContainer,
+                            cardSelector: '.update-card',
+                            indicatorSelector: '.updates-carousel .indicator',
+                            totalItems: updateCards.length
+                        });
+                        updatesCarousel.init();
+                    }
+                }
+            }
+
+            // Initialize carousels when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initCarousels);
+            } else {
+                initCarousels();
+            }
+        })();
+
+        // Mobile menu toggle
+        (function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', function() {
+                    menuToggle.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                });
+
+                // Close menu when clicking on a link
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        menuToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                    });
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                        menuToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                    }
+                });
+            }
+        })();
+
+        // Smooth scroll for navigation links
+        (function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('#')) {
+                        e.preventDefault();
+                        const targetId = href.substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            const headerHeight = document.querySelector('.header').offsetHeight;
+                            const targetPosition = targetElement.offsetTop - headerHeight;
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+        })();
+
+        // Contact form handler
+        (function() {
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const email = document.getElementById('email').value;
+                    const subject = encodeURIComponent(document.getElementById('subject').value);
+                    const message = encodeURIComponent(document.getElementById('message').value);
+                    
+                    // Create mailto link with pre-filled information
+                    const mailtoLink = `mailto:offbookacting@gmail.com?subject=${subject}&body=${message}%0D%0A%0D%0A---%0D%0AFrom: ${encodeURIComponent(email)}`;
+                    
+                    // Open email client
+                    window.location.href = mailtoLink;
+                });
+            }
+        })();
+    </script>
 </body>
 </html>
 
