@@ -426,18 +426,18 @@ section {
     overflow-wrap: break-word;
 }
 
-/* Devlogs Section */
-.devlogs {
+/* Videos Section */
+.videos {
     background: var(--bg-light);
 }
 
-.devlogs-content {
+.videos-content {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
-.devlogs-description {
+.videos-description {
     font-size: 1.125rem;
     color: var(--text-secondary);
     margin-bottom: 2.5rem;
