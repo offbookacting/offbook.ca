@@ -690,10 +690,7 @@ section {
 
 /* GitHub Section */
 .github {
-    background-color: var(--bg-light);
-    min-height: calc(100vh - 200px);
-    display: flex;
-    align-items: center;
+    background-color: var(--bg-white);
 }
 
 .github-content {
